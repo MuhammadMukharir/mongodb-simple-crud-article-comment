@@ -31,7 +31,6 @@ app.use(morgan("dev"));
 // register route
 app.use(blogRoute);
 
-
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`App is running on ${PORT}`);
